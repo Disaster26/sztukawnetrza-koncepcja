@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Sztuka Wnętrza - wortal dla architektów wnętrz i miłośników designu</title>
+<meta name="description" content="Sztuka Wnętrza: realizacje wnętrz prywatnych i publicznych, sylwetki projektantów, przewodnik po stylach, plebiscyt Polska Architektura XXL, biura projektowe i oferty pracy dla architektów wnętrz.">
+<meta name="theme-color" content="#111111">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="img/hero-m-540.webp" imagesrcset="img/hero-m-400.webp 400w, img/hero-m-540.webp 540w" imagesizes="100vw" media="(max-width:760px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-1200.webp" imagesrcset="img/hero-640.webp 640w, img/hero-1024.webp 1024w, img/hero-1200.webp 1200w" imagesizes="100vw" media="(min-width:761px)" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/jost-rdzen.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/jost-pl.woff2" crossorigin>
+<style>
+@font-face{font-family:"Jost";font-style:normal;font-weight:300 700;font-display:swap;src:url(fonts/jost-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2014,U+2018-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:"Jost";font-style:normal;font-weight:300 700;font-display:swap;src:url(fonts/jost-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Lora";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/lora-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026}
+@font-face{font-family:"Lora";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/lora-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Jost-fb";src:local("Arial");size-adjust:96%;ascent-override:104%;descent-override:36%;line-gap-override:0%}
+@font-face{font-family:"Lora-fb";src:local("Georgia");size-adjust:104%;ascent-override:88%;descent-override:24%;line-gap-override:0%}
+:root{--teal:#169195;--teal-d:#077376;--teal-dd:#065d60;--czern:#111111;--ink:#16191a;--mut:#4e5759;--g:#eef1f2;--line:#d5dcde;--hh:62px;--w:min(calc(100vw - 32px),1720px)}
+@media (min-width:761px){:root{--hh:78px;--w:min(92vw,1720px)}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--hh);-webkit-text-size-adjust:100%}
+body{margin:0;font-family:Lora,"Lora-fb",Georgia,serif;font-size:clamp(16px,.18vw + 15px,19px);line-height:1.65;color:var(--ink);background:#fff;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{margin:0;font-family:Jost,"Jost-fb",Arial,sans-serif;font-weight:500;line-height:1.1;letter-spacing:-.01em}
+h2{font-size:clamp(32px,3.2vw,62px);font-weight:400}
+h3{font-size:clamp(20px,1.25vw,26px)}
+p{margin:0}
+.wrap{width:var(--w);margin:0 auto}
+.sans{font-family:Jost,"Jost-fb",Arial,sans-serif}
+.skip{position:absolute;left:-999px}.skip:focus{left:16px;top:8px;z-index:99;background:#fff;padding:8px 12px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:0 28px;background:var(--teal-d);color:#fff;font:500 1.04rem/1 Jost,"Jost-fb",Arial,sans-serif;letter-spacing:.02em;text-decoration:none;border:0;border-radius:0;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:background .15s}
+.btn:hover{background:var(--teal-dd)}
+.btn svg{width:18px;height:18px}
+.btn:focus-visible,a:focus-visible,button:focus-visible{outline:3px solid var(--teal);outline-offset:3px}
+
+/* logo: "sztuka" turkus nad czarna belka "wnetrza" - jak w ich znaku */
+.logo{display:inline-flex;flex-direction:column;align-items:flex-start;text-decoration:none;line-height:1;flex:none}
+.logo .l1{font:300 31px/.86 Jost,"Jost-fb",Arial,sans-serif;color:var(--teal);letter-spacing:.005em;margin-left:.42em;position:relative;z-index:1}
+.logo .l2{display:block;background:var(--czern);color:#fff;font:300 21px/1 Jost,"Jost-fb",Arial,sans-serif;letter-spacing:.23em;padding:1px .2em 4px .45em}
+@media (min-width:761px){.logo .l1{font-size:37px}.logo .l2{font-size:25px}}
+@media (min-width:1800px){:root{--hh:92px}.logo .l1{font-size:44px}.logo .l2{font-size:30px}.menu a{font-size:1.1rem}}
+
+/* naglowek */
+.top{position:sticky;top:0;z-index:50;height:var(--hh);background:#fff;transition:box-shadow .2s}
+.top.sc{box-shadow:0 1px 0 var(--line),0 8px 20px rgba(0,0,0,.06)}
+.top .wrap{height:100%;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.menu{display:flex;align-items:center;gap:clamp(16px,1.7vw,38px);font-family:Jost,"Jost-fb",Arial,sans-serif}
+.menu a{text-decoration:none;font-weight:500;font-size:1.02rem;position:relative;padding:6px 0;color:var(--ink);white-space:nowrap}
+.menu a:not(.btn).on::after,.menu a:not(.btn):hover::after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:4px;background:var(--czern)}
+.menu .btn{min-height:46px;padding:0 22px;color:#fff}
+.burger{display:none}
+@media (max-width:1200px){
+  .menu{position:fixed;inset:var(--hh) 0 auto 0;background:#fff;flex-direction:column;align-items:stretch;gap:0;padding:6px 16px 22px;border-top:1px solid var(--line);box-shadow:0 18px 30px rgba(0,0,0,.12);transform:translateY(-8px);opacity:0;visibility:hidden;transition:.2s}
+  .top.open .menu{transform:none;opacity:1;visibility:visible}
+  .menu a{padding:13px 2px;border-bottom:1px solid var(--line);font-size:1.12rem;line-height:1.5}
+  .menu a:not(.btn).on::after,.menu a:not(.btn):hover::after{left:auto;right:0;top:50%;bottom:auto;width:22px;height:4px;margin-top:-2px}
+  .menu .btn{margin-top:16px;min-height:52px;border:0}
+  .burger{display:inline-flex;flex-direction:column;justify-content:center;gap:6px;width:48px;height:48px;padding:0 11px;background:none;border:0;cursor:pointer;margin-right:-8px}
+  .burger span{display:block;height:2px;background:var(--czern);transition:.2s}
+  .top.open .burger span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+  .top.open .burger span:nth-child(2){opacity:0}
+  .top.open .burger span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+}
+
+/* okladka */
+.hero{position:relative;min-height:calc(100svh - var(--hh));display:flex;align-items:flex-end;color:#fff;overflow:hidden;background:#20302f}
+.hero picture,.hero picture img{position:absolute;inset:0;width:100%;height:100%}
+.hero picture img{object-fit:cover;object-position:50% 40%}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.78) 0%,rgba(0,0,0,.5) 34%,rgba(0,0,0,0) 62%),linear-gradient(90deg,rgba(0,0,0,.35),rgba(0,0,0,0) 55%)}
+.hero-in{position:relative;z-index:1;padding:clamp(28px,6svh,84px) 0 clamp(24px,6svh,72px)}
+.hero h1{font-weight:400;font-size:clamp(31px,4.3vw,92px);line-height:1.04;max-width:15ch;letter-spacing:-.02em}
+.okl{display:flex;align-items:center;gap:clamp(18px,2vw,40px);margin-top:clamp(24px,3.4svh,44px);background:var(--czern);padding:clamp(16px,1.4vw,26px) clamp(18px,1.6vw,30px);max-width:min(100%,1080px);width:fit-content}
+.okl .t{font:500 clamp(18px,1.35vw,28px)/1.25 Jost,"Jost-fb",Arial,sans-serif}
+.okl .m{font-size:.9rem;color:#c9d2d3;margin-top:6px;font-style:italic}
+.okl .btn{flex:none}
+@media (min-width:761px){.hero picture img{object-position:50% 46%}}
+@media (max-width:760px){
+  .hero picture img{object-position:50% 30%}
+  .hero h1{font-size:clamp(29px,8.2vw,38px);max-width:none}
+  .okl{flex-direction:column;align-items:stretch;gap:16px}
+  .okl .btn{width:100%}
+}
+@media (min-width:761px) and (max-height:800px){.hero h1{font-size:clamp(34px,3.7vw,64px)}}
+
+/* sekcje */
+.sek{padding:clamp(56px,6vw,120px) 0}
+.szara{background:var(--g)}
+.sek-h{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:clamp(26px,2.6vw,48px)}
+.sek-h p{max-width:60ch;color:var(--mut)}
+@media (max-width:760px){.sek-h{flex-direction:column;align-items:flex-start}}
+/* belka z logo pod naglowkiem sekcji */
+.bel{display:block;width:clamp(64px,5vw,96px);height:8px;background:var(--czern);margin-top:16px}
+.kat{font:500 .95rem/1.3 Jost,"Jost-fb",Arial,sans-serif;color:var(--teal-d);margin-bottom:8px}
+.meta{font-size:.88rem;color:var(--mut);margin-top:10px;font-style:italic}
+.fot{display:block;position:relative;padding:0;border:0;background:#d9dfe0;cursor:zoom-in;width:100%;overflow:hidden}
+.fot img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.fot:hover img{transform:scale(1.03)}
+.ile{position:absolute;right:0;bottom:0;background:var(--czern);color:#fff;font:500 .8rem/1 Jost,"Jost-fb",Arial,sans-serif;padding:7px 10px}
+.ukr{display:none}
+
+/* najnowsze: uklad magazynu */
+.mag{display:grid;gap:clamp(22px,2vw,40px)}
+.mag .glow .fot{aspect-ratio:3/2}
+.mag .glow .tx{background:var(--czern);color:#fff;padding:clamp(18px,1.6vw,30px);margin:-46px clamp(14px,2vw,40px) 0 0;position:relative}
+.mag .glow .kat{color:#5fc4c7}
+.mag .glow .ile{top:0;bottom:auto}
+.mag .glow h3{font-size:clamp(24px,2vw,40px);font-weight:400}
+.mag .glow .zaj{margin-top:12px;color:#d6dddd;max-width:62ch}
+.mag .glow .meta{color:#b4bfc0}
+.kar{min-width:0}
+.lista .kar{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);gap:16px;align-items:start;padding-bottom:20px;border-bottom:1px solid var(--line)}
+.lista .kar .fot{aspect-ratio:1/1}
+.lista .kar h3{font-size:clamp(18px,1.05vw,22px)}
+.lista .kar .zaj{display:none}
+.lista{display:grid;gap:20px;align-content:start}
+.wczesniej{display:none}
+@media (min-width:1000px){
+  .mag{grid-template-columns:minmax(0,6fr) minmax(0,5fr)}
+  .lista .kar{grid-template-columns:minmax(0,1fr) minmax(0,1.25fr)}
+  .lista .kar .fot{aspect-ratio:4/3}
+}
+@media (min-width:1500px){
+  .mag{grid-template-columns:minmax(0,5fr) minmax(0,4fr) minmax(0,3fr)}
+  .wczesniej{display:block}
+}
+.wczesniej h3{font-size:1.1rem;font-weight:500;padding-bottom:12px;border-bottom:8px solid var(--czern);margin-bottom:6px}
+.wczesniej ol{list-style:none;margin:0;padding:0}
+.wczesniej li{padding:16px 0;border-bottom:1px solid var(--line)}
+.wczesniej li b{display:block;font:500 1.08rem/1.3 Jost,"Jost-fb",Arial,sans-serif}
+.wczesniej li span{font-size:.86rem;color:var(--mut);font-style:italic}
+
+/* galeria - pas w kontenerze */
+.tor{display:flex;gap:clamp(12px,1vw,20px);overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;-webkit-overflow-scrolling:touch;cursor:grab}
+.tor::-webkit-scrollbar{display:none}
+.tor.drag{cursor:grabbing;scroll-snap-type:none}
+.tor.drag .fot{pointer-events:none}
+.g{margin:0;flex:none;scroll-snap-align:start}
+.g .fot{height:clamp(300px,25vw,540px)}
+.g.poz .fot{width:calc(clamp(300px,25vw,540px) * 1.5)}
+.g.pion .fot{width:calc(clamp(300px,25vw,540px) * .667)}
+.g figcaption{font-size:.9rem;color:var(--mut);margin-top:10px;font-style:italic;max-width:40ch}
+@media (max-width:760px){.g .fot{height:62vw}.g.poz .fot{width:84vw}.g.pion .fot{width:42vw}}
+.nav{display:flex;gap:8px;flex:none}
+.nav button{width:52px;height:52px;display:grid;place-items:center;background:#fff;border:1px solid var(--czern);color:var(--czern);cursor:pointer}
+.nav button:hover{background:var(--czern);color:#fff}
+.nav button:disabled{opacity:.3;cursor:default;background:#fff;color:var(--czern)}
+.nav svg{width:20px;height:20px}
+@media (max-width:760px){.nav{display:none}}
+
+/* XXL - mocna sekcja turkusowa */
+.xxl{background:var(--teal-d);color:#fff}
+.xxl .wrap{display:grid;gap:clamp(30px,4vw,80px)}
+.xxl h2{display:inline;background:var(--czern);padding:.04em .28em .1em;box-decoration-break:clone;-webkit-box-decoration-break:clone;line-height:1.32}
+.xxl .o{margin-top:26px;max-width:52ch;color:#fff;font-size:1.06rem}
+.xxl ol{list-style:none;margin:0;padding:0;border-top:1px solid rgba(255,255,255,.35)}
+.xxl li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:clamp(18px,2vw,40px);align-items:baseline;padding:clamp(18px,1.6vw,28px) 0;border-bottom:1px solid rgba(255,255,255,.35)}
+.xxl li .r{font:300 clamp(40px,4vw,84px)/1 Jost,"Jost-fb",Arial,sans-serif;letter-spacing:-.02em}
+.xxl li b{display:block;font:500 clamp(18px,1.3vw,26px)/1.3 Jost,"Jost-fb",Arial,sans-serif}
+.xxl li span{display:block;margin-top:6px;color:#fff;font-size:.95rem}
+@media (min-width:1000px){.xxl .wrap{grid-template-columns:minmax(0,5fr) minmax(0,7fr)}}
+
+/* sylwetki */
+.syl{display:grid;gap:clamp(30px,3vw,60px)}
+.syl article{min-width:0}
+.syl .fot{aspect-ratio:3/2}
+.syl h3{font-size:clamp(24px,1.9vw,38px);font-weight:400;margin-top:20px}
+.syl blockquote{margin:16px 0 0;padding-left:20px;border-left:8px solid var(--czern);font-style:italic;font-size:1.08rem;max-width:58ch}
+.syl .zaj{margin-top:14px;color:var(--mut);max-width:62ch}
+@media (min-width:900px){.syl{grid-template-columns:1fr 1fr}}
+
+/* style */
+.style{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:clamp(16px,2vw,40px)}
+.style a{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:16px 0;border-top:1px solid #c4cdd0;text-decoration:none;font:400 clamp(18px,1.3vw,26px)/1.25 Jost,"Jost-fb",Arial,sans-serif}
+.style a::after{content:"";width:16px;height:8px;background:var(--czern);flex:none;transition:width .2s,background .2s}
+.style a:hover{color:var(--teal-d)}.style a:hover::after{width:30px;background:var(--teal-d)}
+@media (min-width:700px){.style{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (min-width:1100px){.style{grid-template-columns:repeat(5,minmax(0,1fr))}}
+
+/* spolecznosc */
+.spol{display:grid;gap:clamp(36px,3vw,64px)}
+.spol h3{font-size:clamp(22px,1.5vw,30px);font-weight:400;padding-bottom:14px;border-bottom:8px solid var(--czern)}
+.spol ul{list-style:none;margin:0;padding:0}
+.spol li{padding:15px 0;border-bottom:1px solid var(--line)}
+.spol li b{display:block;font:500 1.06rem/1.35 Jost,"Jost-fb",Arial,sans-serif}
+.spol li span{font-size:.9rem;color:var(--mut);font-style:italic}
+.spol .dod{margin-top:22px}
+.spol .btn.jasny{background:#fff;color:var(--czern);border:1px solid var(--czern)}
+.spol .btn.jasny:hover{background:var(--czern);color:#fff}
+@media (min-width:900px){.spol{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+/* newsletter + redakcja */
+.news{display:grid;gap:clamp(36px,4vw,80px)}
+.news .o{margin-top:18px;color:var(--mut);max-width:50ch}
+form{display:grid;gap:16px;margin-top:28px;font-family:Jost,"Jost-fb",Arial,sans-serif}
+.pola{display:grid;gap:16px}
+@media (min-width:600px){.pola{grid-template-columns:1fr 1fr}}
+label{display:grid;gap:6px;font-weight:500;font-size:.98rem}
+input,select{font:inherit;font-weight:400;font-size:1rem;min-height:52px;padding:0 14px;border:1px solid #9aa6a9;border-radius:0;background:#fff;color:var(--ink);width:100%}
+input:focus,select:focus{outline:2px solid var(--teal-d);outline-offset:0;border-color:var(--teal-d)}
+[aria-invalid="true"]{border-color:#b3261e}
+.zgoda{display:flex;gap:12px;align-items:flex-start;font-weight:400;font-size:.92rem;color:var(--mut);line-height:1.5}
+.zgoda input{width:22px;min-height:22px;height:22px;margin:1px 0 0;flex:none;accent-color:var(--teal-d)}
+form .btn{justify-self:start}
+.msg{background:#fff;border-left:8px solid var(--teal-d);padding:14px 16px}
+.red h3{font-size:clamp(22px,1.5vw,30px);font-weight:400;padding-bottom:14px;border-bottom:8px solid var(--czern);margin-bottom:18px}
+.red dl{margin:0;display:grid;gap:18px}
+.red dt{font:500 .95rem/1.3 Jost,"Jost-fb",Arial,sans-serif;color:var(--teal-d)}
+.red dd{margin:4px 0 0}
+.red a{text-decoration-thickness:1px;text-underline-offset:3px}
+@media (min-width:1000px){.news{grid-template-columns:minmax(0,7fr) minmax(0,5fr)}}
+
+/* stopka */
+.stopka{background:var(--czern);color:#c2c9ca;padding:clamp(48px,5vw,90px) 0 24px;font-size:.95rem}
+.stopka .gr{display:grid;gap:30px 24px;grid-template-columns:repeat(2,minmax(0,1fr))}
+.stopka .pierw{grid-column:1/-1}
+.stopka .logo .l2{background:#fff;color:var(--czern)}
+.stopka .pierw p{margin-top:16px;max-width:40ch}
+.stopka h3{color:#fff;font-size:1rem;font-weight:500;margin-bottom:10px}
+.stopka ul{list-style:none;margin:0;padding:0}
+.stopka li{padding:4px 0}
+.stopka a{text-decoration:none}.stopka a:hover{color:#fff;text-decoration:underline}
+.stopka .dol{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 24px;margin-top:44px;padding-top:20px;border-top:1px solid #333;font-size:.88rem;color:#a9b1b3}
+@media (min-width:900px){.stopka .gr{grid-template-columns:minmax(0,1.6fr) repeat(4,minmax(0,1fr))}.stopka .pierw{grid-column:auto}}
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:100;background:rgba(10,12,12,.94);display:none;align-items:center;justify-content:center;padding:56px 12px 70px}
+.lb.otw{display:flex}
+.lb img{max-width:min(100%,1400px);max-height:100%;width:auto;height:auto;object-fit:contain}
+.lb p{position:absolute;left:16px;right:16px;bottom:18px;text-align:center;color:#e5eaea;font-size:.92rem}
+.lb button{position:absolute;width:52px;height:52px;display:grid;place-items:center;background:rgba(255,255,255,.1);border:0;color:#fff;cursor:pointer}
+.lb button:hover{background:rgba(255,255,255,.22)}
+.lb svg{width:24px;height:24px}
+.lb .x{top:8px;right:8px}.lb .p{left:8px;top:50%;margin-top:-26px}.lb .n{right:8px;top:50%;margin-top:-26px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#najnowsze">Przejdź do treści</a>
+<header class="top" id="top">
+  <div class="wrap">
+    <a class="logo" href="#start"><span class="l1">sztuka</span><span class="l2">wnętrza</span></a>
+    <nav class="menu" id="menu" aria-label="Menu główne">
+      <a href="#najnowsze">Najnowsze</a>
+      <a href="#galeria">Galeria wnętrz</a>
+      <a href="#xxl">Polska Architektura XXL</a>
+      <a href="#sylwetki">Sylwetki</a>
+      <a href="#style">Znajdź swój styl</a>
+      <a href="#spolecznosc">Społeczność i praca</a>
+      <a class="btn" href="#newsletter">Newsletter</a>
+    </nav>
+    <button class="burger" id="burger" type="button" aria-label="Otwórz menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="start" aria-label="Na okładce">
+  <picture>
+    <source media="(max-width:760px)" srcset="img/hero-m-400.webp 400w, img/hero-m-540.webp 540w" sizes="100vw" width="540" height="801">
+    <img src="img/hero-1200.webp" srcset="img/hero-640.webp 640w, img/hero-1024.webp 1024w, img/hero-1200.webp 1200w" sizes="100vw" width="1200" height="801" alt="Kuchnia w biurze Grupy MJG w Poznaniu: bordowy łuk, oliwkowy sufit i tapicerowane ławy z łukowymi oparciami" fetchpriority="high">
+  </picture>
+  <div class="wrap hero-in">
+    <h1>Sztuka Wnętrza - wortal dla architektów wnętrz i miłośników designu</h1>
+    <div class="okl">
+      <div><p class="t">Na okładce: Włochy przy ulicy Wujka. Oliwkowy sufit zjednoczył kilka firm</p><p class="m">Projekt mode:lina, Poznań · 16.11.2026</p></div>
+      <a class="btn" href="#najnowsze">Najnowsze wnętrza <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7.5 4l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<section class="sek" id="najnowsze">
+  <div class="wrap">
+    <div class="sek-h"><div><h2>Najnowsze realizacje</h2><span class="bel"></span></div></div>
+    <div class="mag">
+      <article class="kar glow" data-grupa><button class="fot" type="button" data-lb="img/a05_00-1200.webp" ><img src="img/a05_00-600.webp" srcset="img/a05_00-300.webp 300w, img/a05_00-600.webp 600w, img/a05_00-900.webp 900w, img/a05_00-1200.webp 1200w" sizes="(max-width:1000px) 100vw, 45vw" width="600" height="400" alt="Salon z jasną sofą i widokiem na las" loading="lazy" decoding="async"><span class="ile" aria-hidden="true">3 zdj.</span></button><button class="ukr" type="button" data-lb="img/a05_01-1200.webp" data-alt="Jadalnia z zielonymi krzesłami i długim stołem" tabindex="-1" aria-hidden="true"></button><button class="ukr" type="button" data-lb="img/a05_02-1200.webp" data-alt="Strefa dzienna z kuchnią i jadalnią" tabindex="-1" aria-hidden="true"></button><div class="tx"><p class="kat">Wnętrza prywatne</p><h3>Nowoczesny dom otwarty na naturę</h3><p class="zaj">Rezydencja w sosnowym lesie pod Warszawą: architektki zaprojektowały od podstaw bryłę i pełną aranżację wnętrz, a przeszklenia od podłogi do sufitu wpuszczają las do środka.</p><p class="meta">Dom pod Warszawą · 30.10.2026</p></div></article>
+      <div class="lista">
+        <article class="kar" data-grupa><button class="fot" type="button" data-lb="img/a01_00-1200.webp" ><img src="img/a01_00-600.webp" srcset="img/a01_00-300.webp 300w, img/a01_00-600.webp 600w, img/a01_00-900.webp 900w, img/a01_00-1200.webp 1200w" sizes="(max-width:760px) 38vw, (max-width:1500px) 20vw, 12vw" width="600" height="400" alt="Salon z aneksem w domu na Wawrze, sztruksowa sofa i czerwone poduszki" loading="lazy" decoding="async"><span class="ile" aria-hidden="true">4 zdj.</span></button><button class="ukr" type="button" data-lb="img/a01_01-1200.webp" data-alt="Zielona kuchnia z jadalnią w domu na Wawrze" tabindex="-1" aria-hidden="true"></button><button class="ukr" type="button" data-lb="img/a01_02-1200.webp" data-alt="Łazienka główna z okładziną w odcieniu rdzy" tabindex="-1" aria-hidden="true"></button><button class="ukr" type="button" data-lb="img/a01_03-1200.webp" data-alt="Łazienka gościnna z zieloną szafką i ciemnym drewnem" tabindex="-1" aria-hidden="true"></button><div class="tx"><p class="kat">Wnętrza prywatne</p><h3>Ten dom w Wawrze udowadnia, że beton może być przytulny</h3><p class="zaj">Zielona kuchnia, sztruksowa sofa i łazienki inspirowane betonem, które wcale nie są zimne. Projekt Kubiszewska Studio pokazuje, że surowość i domowe ciepło mogą się dogadać.</p><p class="meta">Kubiszewska Studio · 09.11.2026</p></div></article>
+        <article class="kar" data-grupa><button class="fot" type="button" data-lb="img/a02_00-1200.webp" ><img src="img/a02_00-600.webp" srcset="img/a02_00-300.webp 300w, img/a02_00-600.webp 600w, img/a02_00-900.webp 900w, img/a02_00-1200.webp 1200w" sizes="(max-width:760px) 38vw, (max-width:1500px) 20vw, 12vw" width="600" height="400" alt="Salon w stylu japandi z jasną sofą i owalnym stolikiem" loading="lazy" decoding="async"><span class="ile" aria-hidden="true">4 zdj.</span></button><button class="ukr" type="button" data-lb="img/a02_01-1200.webp" data-alt="Okrągły stół z drewna w aneksie kuchennym" tabindex="-1" aria-hidden="true"></button><button class="ukr" type="button" data-lb="img/a02_02-1200.webp" data-alt="Sypialnia w ciepłych odcieniach z lampką nocną" tabindex="-1" aria-hidden="true"></button><button class="ukr" type="button" data-lb="img/a02_03-1200.webp" data-alt="Łazienka z lustrem o organicznym kształcie" tabindex="-1" aria-hidden="true"></button><div class="tx"><p class="kat">Wnętrza prywatne</p><h3>37 m² w stylu japandi</h3><p class="zaj">Mieszkanie pokazowe przy Braniborskiej we Wrocławiu: pracownia Decoroom z Galerią Wnętrz DOMAR pokazuje, jak przemyślany układ i spójne materiały wykorzystują kompaktowy metraż.</p><p class="meta">Decoroom, Wrocław · 06.11.2026</p></div></article>
+        <article class="kar" data-grupa><button class="fot" type="button" data-lb="img/a09_01-1200.webp" ><img src="img/a09_01-600.webp" srcset="img/a09_01-300.webp 300w, img/a09_01-600.webp 600w, img/a09_01-900.webp 900w, img/a09_01-1200.webp 1200w" sizes="(max-width:760px) 38vw, (max-width:1500px) 20vw, 12vw" width="600" height="400" alt="Lampa Bourgie Ferruccia Lavianiego w zabytkowym wnętrzu" loading="lazy" decoding="async"><span class="ile" aria-hidden="true">3 zdj.</span></button><button class="ukr" type="button" data-lb="img/a09_02-1200.webp" data-alt="Lampy Battery Ferruccia Lavianiego" tabindex="-1" aria-hidden="true"></button><button class="ukr" type="button" data-lb="img/a09_03-1200.webp" data-alt="Aranżacja salonu z meblami i lampami Lavianiego" tabindex="-1" aria-hidden="true"></button><div class="tx"><p class="kat">Historia designu - świat</p><h3>Czy meble Lavianiego mogą zachwycać po latach?</h3><p class="zaj">Ferruccio Laviani udowadnia, że klasyczny przepych i przemysłowe tworzywa mogą tworzyć spektakularny duet, który odmienia podejście do aranżacji wnętrz.</p><p class="meta">Ferruccio Laviani · 04.11.2026</p></div></article>
+        <article class="kar" data-grupa><button class="fot" type="button" data-lb="img/a03_01-1200.webp" ><img src="img/a03_01-600.webp" srcset="img/a03_01-300.webp 300w, img/a03_01-600.webp 600w, img/a03_01-900.webp 900w, img/a03_01-1200.webp 1200w" sizes="(max-width:760px) 38vw, (max-width:1500px) 20vw, 12vw" width="600" height="901" alt="Salon z modułową sofą w mieszkaniu w Koneserze" loading="lazy" decoding="async"><span class="ile" aria-hidden="true">4 zdj.</span></button><button class="ukr" type="button" data-lb="img/a03_02-1200.webp" data-alt="Kuchnia z kamiennym blatem i ciemną zabudową" tabindex="-1" aria-hidden="true"></button><button class="ukr" type="button" data-lb="img/a03_03-1200.webp" data-alt="Detal ceramiki i kamienia w mieszkaniu w Koneserze" tabindex="-1" aria-hidden="true"></button><button class="ukr" type="button" data-lb="img/a03_00-1200.webp" data-alt="Piotr Łucyan w zaprojektowanym przez siebie mieszkaniu" tabindex="-1" aria-hidden="true"></button><div class="tx"><p class="kat">Wnętrza prywatne</p><h3>Maksymalizm na 50 metrach</h3><p class="zaj">Po latach w chłodnym minimalizmie właściciel mieszkania w warszawskim Koneserze postawił na zmianę. Piotr Łucyan z Art'Up Interiors zestawił intensywne barwy, wyraziste kamienie i sztukę.</p><p class="meta">Art'Up Interiors, Warszawa · 03.11.2026</p></div></article>
+      </div>
+      <aside class="wczesniej" aria-label="Wcześniej w Sztuce Wnętrza">
+        <h3>Wcześniej</h3>
+        <ol>
+          <li><b>Salon z charakterem. Jak polskie meble wypoczynkowe zmieniają podejście do urządzania wnętrz</b><span>05.11.2026</span></li>
+          <li><b>Pałac Ogińskich i Potulickich w Krakowie wraca do życia w nowej odsłonie</b><span>02.11.2026</span></li>
+          <li><b>Polskie Wnętrze 2025 - wyniki głosowania jury</b><span>plebiscyt</span></li>
+          <li><b>Polscy projektanci na wystawie „Czułość”</b><span>22.10.2026</span></li>
+          <li><b>Pragmatyzm zamiast ego. Magdalena Federowicz-Boule o tworzeniu architektury</b><span>20.10.2026</span></li>
+          <li><b>Warsaw Home 2026 - trzy filary branży w jednym miejscu</b><span>19.10.2026</span></li><li><b>Styl japandi w zupełnie nowej odsłonie</b><span>19.10.2026</span></li>
+        </ol>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="sek szara" id="galeria">
+  <div class="wrap">
+    <div class="sek-h">
+      <div><h2>Galeria wnętrz</h2><span class="bel"></span></div>
+      <div class="nav" data-nav="tor"><button type="button" data-k="-1" aria-label="Poprzednie zdjęcia"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M12.5 4 6.5 10l6 6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button><button type="button" data-k="1" aria-label="Następne zdjęcia"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7.5 4l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button></div>
+    </div>
+    <div class="tor" id="tor" data-tor data-grupa><figure class="g poz"><button class="fot" type="button" data-lb="img/a00_03-1200.webp"><img src="img/a00_03-600.webp" srcset="img/a00_03-300.webp 300w, img/a00_03-600.webp 600w, img/a00_03-900.webp 900w, img/a00_03-1200.webp 1200w" sizes="(max-width:760px) 84vw, 38vw" width="600" height="400" alt="Strefa kuchni w biurze Grupy MJG z bordowym łukiem i oliwkowym sufitem" loading="lazy" decoding="async"></button><figcaption>Włochy przy ulicy Wujka</figcaption></figure><figure class="g pion"><button class="fot" type="button" data-lb="img/a01_02-1200.webp"><img src="img/a01_02-600.webp" srcset="img/a01_02-300.webp 300w, img/a01_02-600.webp 600w, img/a01_02-900.webp 900w, img/a01_02-1200.webp 1200w" sizes="(max-width:760px) 42vw, 17vw" width="600" height="900" alt="Łazienka główna z okładziną w odcieniu rdzy" loading="lazy" decoding="async"></button><figcaption>Ten dom w Wawrze udowadnia, że beton może być przytulny</figcaption></figure><figure class="g poz"><button class="fot" type="button" data-lb="img/a05_01-1200.webp"><img src="img/a05_01-600.webp" srcset="img/a05_01-300.webp 300w, img/a05_01-600.webp 600w, img/a05_01-900.webp 900w, img/a05_01-1200.webp 1200w" sizes="(max-width:760px) 84vw, 38vw" width="600" height="400" alt="Jadalnia z zielonymi krzesłami i długim stołem" loading="lazy" decoding="async"></button><figcaption>Nowoczesny dom otwarty na naturę</figcaption></figure><figure class="g pion"><button class="fot" type="button" data-lb="img/a04_02-1200.webp"><img src="img/a04_02-600.webp" srcset="img/a04_02-300.webp 300w, img/a04_02-600.webp 600w, img/a04_02-900.webp 900w, img/a04_02-1200.webp 1200w" sizes="(max-width:760px) 42vw, 17vw" width="600" height="801" alt="Sala restauracji w Pałacu Ogińskich i Potulickich z turkusowym łukiem" loading="lazy" decoding="async"></button><figcaption>Pałac Ogińskich i Potulickich w Krakowie wraca do życia w nowej odsłonie</figcaption></figure><figure class="g poz"><button class="fot" type="button" data-lb="img/a02_00-1200.webp"><img src="img/a02_00-600.webp" srcset="img/a02_00-300.webp 300w, img/a02_00-600.webp 600w, img/a02_00-900.webp 900w, img/a02_00-1200.webp 1200w" sizes="(max-width:760px) 84vw, 38vw" width="600" height="400" alt="Salon w stylu japandi z jasną sofą i owalnym stolikiem" loading="lazy" decoding="async"></button><figcaption>37 m² w stylu japandi</figcaption></figure><figure class="g pion"><button class="fot" type="button" data-lb="img/a03_01-1200.webp"><img src="img/a03_01-600.webp" srcset="img/a03_01-300.webp 300w, img/a03_01-600.webp 600w, img/a03_01-900.webp 900w, img/a03_01-1200.webp 1200w" sizes="(max-width:760px) 42vw, 17vw" width="600" height="901" alt="Salon z modułową sofą w mieszkaniu w Koneserze" loading="lazy" decoding="async"></button><figcaption>Maksymalizm na 50 metrach</figcaption></figure><figure class="g poz"><button class="fot" type="button" data-lb="img/a07_01-1200.webp"><img src="img/a07_01-600.webp" srcset="img/a07_01-300.webp 300w, img/a07_01-600.webp 600w, img/a07_01-900.webp 900w, img/a07_01-1200.webp 1200w" sizes="(max-width:760px) 84vw, 38vw" width="600" height="400" alt="Salon z łukową wnęką i regałem" loading="lazy" decoding="async"></button><figcaption>Mieszkanie łączące sztukę, rzemiosło i świadome projektowanie</figcaption></figure><figure class="g poz"><button class="fot" type="button" data-lb="img/a09_01-1200.webp"><img src="img/a09_01-600.webp" srcset="img/a09_01-300.webp 300w, img/a09_01-600.webp 600w, img/a09_01-900.webp 900w, img/a09_01-1200.webp 1200w" sizes="(max-width:760px) 84vw, 38vw" width="600" height="400" alt="Lampa Bourgie Ferruccia Lavianiego w zabytkowym wnętrzu" loading="lazy" decoding="async"></button><figcaption>Czy meble Lavianiego mogą zachwycać po latach?</figcaption></figure><figure class="g poz"><button class="fot" type="button" data-lb="img/a01_01-1200.webp"><img src="img/a01_01-600.webp" srcset="img/a01_01-300.webp 300w, img/a01_01-600.webp 600w, img/a01_01-900.webp 900w, img/a01_01-1200.webp 1200w" sizes="(max-width:760px) 84vw, 38vw" width="600" height="400" alt="Zielona kuchnia z jadalnią w domu na Wawrze" loading="lazy" decoding="async"></button><figcaption>Ten dom w Wawrze udowadnia, że beton może być przytulny</figcaption></figure><figure class="g poz"><button class="fot" type="button" data-lb="img/a00_00-1200.webp"><img src="img/a00_00-600.webp" srcset="img/a00_00-300.webp 300w, img/a00_00-600.webp 600w, img/a00_00-900.webp 900w, img/a00_00-1200.webp 1200w" sizes="(max-width:760px) 84vw, 38vw" width="600" height="400" alt="Korytarz biura Grupy MJG z drewnianymi regałami i łukowymi przejściami" loading="lazy" decoding="async"></button><figcaption>Włochy przy ulicy Wujka</figcaption></figure><figure class="g pion"><button class="fot" type="button" data-lb="img/a02_03-1200.webp"><img src="img/a02_03-600.webp" srcset="img/a02_03-300.webp 300w, img/a02_03-600.webp 600w, img/a02_03-900.webp 900w, img/a02_03-1200.webp 1200w" sizes="(max-width:760px) 42vw, 17vw" width="600" height="901" alt="Łazienka z lustrem o organicznym kształcie" loading="lazy" decoding="async"></button><figcaption>37 m² w stylu japandi</figcaption></figure><figure class="g poz"><button class="fot" type="button" data-lb="img/a05_00-1200.webp"><img src="img/a05_00-600.webp" srcset="img/a05_00-300.webp 300w, img/a05_00-600.webp 600w, img/a05_00-900.webp 900w, img/a05_00-1200.webp 1200w" sizes="(max-width:760px) 84vw, 38vw" width="600" height="400" alt="Salon z jasną sofą i widokiem na las" loading="lazy" decoding="async"></button><figcaption>Nowoczesny dom otwarty na naturę</figcaption></figure><figure class="g pion"><button class="fot" type="button" data-lb="img/a03_02-1200.webp"><img src="img/a03_02-600.webp" srcset="img/a03_02-300.webp 300w, img/a03_02-600.webp 600w, img/a03_02-900.webp 900w, img/a03_02-1200.webp 1200w" sizes="(max-width:760px) 42vw, 17vw" width="600" height="901" alt="Kuchnia z kamiennym blatem i ciemną zabudową" loading="lazy" decoding="async"></button><figcaption>Maksymalizm na 50 metrach</figcaption></figure><figure class="g poz"><button class="fot" type="button" data-lb="img/a06_02-1200.webp"><img src="img/a06_02-600.webp" srcset="img/a06_02-300.webp 300w, img/a06_02-600.webp 600w, img/a06_02-900.webp 900w, img/a06_02-1200.webp 1200w" sizes="(max-width:760px) 84vw, 38vw" width="600" height="400" alt="Lobby hotelu Amber Expo w projekcie pracowni Tremend" loading="lazy" decoding="async"></button><figcaption>Amber Expo, pracownia Tremend</figcaption></figure></div>
+  </div>
+</section>
+
+<section class="sek xxl" id="xxl">
+  <div class="wrap">
+    <div>
+      <h2>Polska Architektura XXL</h2>
+      <p class="o">Plebiscyt na najlepsze realizacje minionego roku. W edycji 2024 trzynastu specjalistów z branży wybrało najciekawsze projekty spośród blisko 70 zgłoszeń w trzech kategoriach, a swoich faworytów wskazali też internauci.</p>
+    </div>
+    <ol>
+      <li><span class="r">2024</span><div><b>Znamy wyniki plebiscytu Polska Architektura XXL 2024</b><span>Ogłoszone 06.05.2025</span></div></li>
+      <li><span class="r">2023</span><div><b>Plebiscyt rozstrzygnięty. Znamy najlepsze realizacje minionego roku</b><span>Szesnasta edycja, ogłoszone 14.05.2024</span></div></li>
+      <li><span class="r">2023</span><div><b>Internauci wybrali najlepsze realizacje minionego roku</b><span>Głosowanie publiczności, 09.04.2024</span></div></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sek" id="sylwetki">
+  <div class="wrap">
+    <div class="sek-h"><div><h2>Sylwetki i rozmowy</h2><span class="bel"></span></div></div>
+    <div class="syl">
+      <article data-grupa>
+        <button class="fot" type="button" data-lb="img/a06_03-1200.webp"><img src="img/a06_03-600.webp" srcset="img/a06_03-300.webp 300w, img/a06_03-600.webp 600w, img/a06_03-900.webp 900w, img/a06_03-1200.webp 1200w" sizes="(max-width:900px) 100vw, 46vw" width="600" height="400" alt="Magdalena Federowicz-Boule, założycielka pracowni Tremend" loading="lazy" decoding="async"></button><button class="ukr" type="button" data-lb="img/a06_01-1200.webp" data-alt="Projekt pracowni Tremend z zadaszeniem w formie drzew" tabindex="-1" aria-hidden="true"></button><button class="ukr" type="button" data-lb="img/a06_02-1200.webp" data-alt="Lobby hotelu Amber Expo w projekcie pracowni Tremend" tabindex="-1" aria-hidden="true"></button>
+        <p class="kat" style="margin-top:20px">Rozmowa · 20.10.2026</p>
+        <h3 style="margin-top:0">Pragmatyzm zamiast ego. Magdalena Federowicz-Boule o tworzeniu architektury</h3>
+        <blockquote>Architektura nie powinna służyć wyłącznie ambicjom jej twórcy ani stać się pomnikiem architekta.</blockquote>
+        <p class="zaj">Założycielka pracowni Tremend o kulisach inwestycji, w tym Dworca Metropolitalnego w Lublinie, o bilansowaniu kosztów i elastycznych przestrzeniach.</p>
+      </article>
+      <article data-grupa>
+        <button class="fot" type="button" data-lb="img/a09_00-1200.webp"><img src="img/a09_00-600.webp" srcset="img/a09_00-300.webp 300w, img/a09_00-600.webp 600w, img/a09_00-900.webp 900w, img/a09_00-1200.webp 1200w" sizes="(max-width:900px) 100vw, 46vw" width="600" height="388" alt="Ferruccio Laviani, włoski projektant" loading="lazy" decoding="async"></button>
+        <p class="kat" style="margin-top:20px">Historia designu - świat · 04.11.2026</p>
+        <h3 style="margin-top:0">Ferruccio Laviani i nowa wizja tworzyw sztucznych we wnętrzach</h3>
+        <blockquote>Klasyczny przepych i przemysłowe tworzywa mogą tworzyć spektakularny duet.</blockquote>
+        <p class="zaj">Absolwent Politechniki Mediolańskiej, praktyka u Michele De Lucchiego, od ponad trzech dekad pokazuje, że przemysłowe surowce mogą nieść ogromny ładunek emocji.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sek szara" id="style">
+  <div class="wrap">
+    <div class="sek-h"><div><h2>Znajdź swój styl</h2><span class="bel"></span></div><p>Przewodnik po 25 stylach aranżacji wnętrz, od angielskiego i art deco po japandi i modern organic.</p></div>
+    <ul class="style"><li><a href="#style">Angielski</a></li><li><a href="#style">Art deco</a></li><li><a href="#style">Barok</a></li><li><a href="#style">Digipop</a></li><li><a href="#style">Eklektyzm</a></li><li><a href="#style">Francuski</a></li><li><a href="#style">Fusion</a></li><li><a href="#style">Glamour</a></li><li><a href="#style">High tech</a></li><li><a href="#style">Industrial</a></li><li><a href="#style">Kolonialny</a></li><li><a href="#style">Minimalizm</a></li><li><a href="#style">Modernizm</a></li><li><a href="#style">Orientalny</a></li><li><a href="#style">Romantyzm</a></li><li><a href="#style">Rustykalny</a></li><li><a href="#style">Shabby chic</a></li><li><a href="#style">Skandynawski</a></li><li><a href="#style">Vintage</a></li><li><a href="#style">Wiejski</a></li><li><a href="#style">Ekologiczny</a></li><li><a href="#style">Klasyczny</a></li><li><a href="#style">Hamptons</a></li><li><a href="#style">Modern organic</a></li><li><a href="#style">Japandi</a></li></ul>
+  </div>
+</section>
+
+<section class="sek" id="spolecznosc">
+  <div class="wrap">
+    <div class="sek-h"><div><h2>Społeczność i praca</h2><span class="bel"></span></div><p>Biura projektowe, galerie projektów, firmy i produkty oraz oferty pracy dla architektów wnętrz.</p></div>
+    <div class="spol">
+      <div><h3>Biura projektowe</h3><ul><li><b>Projektowanie Wnętrz Agnieszka Noworzyń</b><span>województwo śląskie</span></li><li><b>DESIGN 44 WALLS</b><span>województwo małopolskie</span></li><li><b>Five Cell</b><span>województwo mazowieckie</span></li><li><b>Archigrest</b><span>województwo mazowieckie</span></li><li><b>MAG architekci</b><span>województwo mazowieckie</span></li><li><b>Better Home Interior Design</b><span>województwo mazowieckie</span></li></ul><div class="dod"><a class="btn jasny" href="#spolecznosc">Dodaj swoje biuro</a></div></div>
+      <div><h3>Galerie projektów</h3><ul><li><b>Złoto w detalach - spójne wnętrze mieszkania</b></li><li><b>Sypialnia dla dwojga - miejsce na dwie pasje</b></li><li><b>Łazienka z cegłą - współczesne wnętrze z historią</b></li><li><b>Mieszkanie w Katowicach - dodatkowy pokój bez przeprowadzki</b></li><li><b>Business Link Nowy Rynek Poznań</b></li></ul></div>
+      <div><h3>Dam pracę</h3><ul><li><b>Architekt / architektka wnętrz</b><span>NURT Design</span></li><li><b>Architekt wnętrz</b><span>Zen Interiors, Warszawa</span></li><li><b>Architekt wnętrz</b><span>Holi.Design, Warszawa</span></li><li><b>Architekt wnętrz w Poznaniu</b><span>BARCHITECTURE</span></li><li><b>Zatrudnię architekta wnętrz</b><span>Aleksandra Wachowicz, Warszawa</span></li><li><b>Dam pracę: architekt wnętrz</b><span>Rzęsa Atelier, Rzeszów</span></li></ul><div class="dod"><a class="btn jasny" href="#spolecznosc">Dodaj ogłoszenie</a></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sek szara" id="newsletter">
+  <div class="wrap news">
+    <div>
+      <h2>Newsletter Sztuki Wnętrza</h2><span class="bel"></span>
+      <p class="o">Nowe realizacje, sylwetki projektantów, konkursy i targi raz na jakiś czas w skrzynce.</p>
+      <form id="form" novalidate>
+        <div class="pola">
+          <label>Region<select name="region" required><option value="">Wybierz</option><option>dolnośląskie</option><option>kujawsko-pomorskie</option><option>lubelskie</option><option>lubuskie</option><option>łódzkie</option><option>małopolskie</option><option>mazowieckie</option><option>opolskie</option><option>podkarpackie</option><option>podlaskie</option><option>pomorskie</option><option>śląskie</option><option>świętokrzyskie</option><option>warmińsko-mazurskie</option><option>wielkopolskie</option><option>zachodniopomorskie</option></select></label>
+          <label>Status<select name="status" required><option value="">Wybierz</option><option>Student</option><option>Architekt</option><option>Urzędnik</option><option>Producent materiałów</option><option>Inny</option></select></label>
+        </div>
+        <label>E-mail<input type="email" name="email" autocomplete="email" required></label>
+        <label class="zgoda"><input type="checkbox" required> Chcę otrzymywać newsletter sztuka-wnetrza.pl. Zgodę mogę wycofać w każdej chwili.</label>
+        <button class="btn" type="submit">Zapisz się</button>
+        <p class="msg" id="msg" hidden role="status">Dziękujemy. To podgląd strony, więc zapis nie został wysłany.</p>
+      </form>
+    </div>
+    <div class="red">
+      <h3>Redakcja i reklama</h3>
+      <dl>
+        <div><dt>Wydawca</dt><dd>Grupa Sztuka Architektury<br>ul. Olimpijska 7/6, 05-082 Latchorzew, Stare Babice</dd></div>
+        <div><dt>Redakcja</dt><dd><a href="mailto:redakcja@sztuka-architektury.pl">redakcja@sztuka-architektury.pl</a></dd></div>
+        <div><dt>Wydawca, reklama</dt><dd>Krzysztof Sołoducha<br><a href="mailto:krzysztof.soloducha@sztuka-architektury.pl">krzysztof.soloducha@sztuka-architektury.pl</a><br><a href="tel:+48691233249">tel. 691 233 249</a></dd></div>
+        <div><dt>Redaktor prowadząca</dt><dd>Karolina Najgebauer<br><a href="mailto:karolina.najgebauer@sztuka-architektury.pl">karolina.najgebauer@sztuka-architektury.pl</a></dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="stopka">
+  <div class="wrap">
+    <div class="gr">
+      <div class="pierw">
+        <a class="logo" href="#start"><span class="l1">sztuka</span><span class="l2">wnętrza</span></a>
+        <p>Wortal dla architektów wnętrz i miłośników designu. Wydawca: Grupa Sztuka Architektury, także sztuka-architektury.pl.</p>
+      </div>
+      <div><h3>Inspiracje</h3><ul><li><a href="#najnowsze">Wnętrza publiczne</a></li><li><a href="#najnowsze">Wnętrza prywatne</a></li><li><a href="#sylwetki">Sylwetki</a></li><li><a href="#najnowsze">Trendy</a></li><li><a href="#sylwetki">Historia designu</a></li></ul></div>
+      <div><h3>Społeczność</h3><ul><li><a href="#spolecznosc">Biura</a></li><li><a href="#spolecznosc">Galerie projektów</a></li><li><a href="#spolecznosc">Firmy i produkty</a></li><li><a href="#spolecznosc">Pliki CAD</a></li><li><a href="#spolecznosc">Praca</a></li></ul></div>
+      <div><h3>Praktyka</h3><ul><li><a href="#xxl">Konkursy</a></li><li><a href="#xxl">Polska Architektura XXL</a></li><li><a href="#najnowsze">Wystawy i targi</a></li><li><a href="#najnowsze">Technika i prawo</a></li></ul></div>
+      <div><h3>Serwis</h3><ul><li><a href="#newsletter">Redakcja</a></li><li><a href="#newsletter">Reklama</a></li><li><a href="#newsletter">Newsletter</a></li><li><a href="#newsletter">Polityka prywatności</a></li></ul></div>
+    </div>
+    <div class="dol">
+      <span>© <span id="rok">2026</span> Grupa Sztuka Architektury</span>
+      <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=sztuka-wnetrza.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+    </div>
+  </div>
+</footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Powiększone zdjęcie">
+  <button class="x" type="button" aria-label="Zamknij"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 4l12 12M16 4 4 16" stroke="currentColor" stroke-width="1.8"/></svg></button>
+  <button class="p" type="button" aria-label="Poprzednie"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M12.5 4 6.5 10l6 6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button>
+  <img alt="">
+  <button class="n" type="button" aria-label="Następne"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7.5 4l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button>
+  <p></p>
+</div>
+<script src="app.js" defer></script>
+</body>
+</html>
